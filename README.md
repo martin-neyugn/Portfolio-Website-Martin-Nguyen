@@ -27,7 +27,7 @@ To get a local copy of the project up and running on your machine, follow these 
 
 1. Clone the repository:
 
-```bash
+bash
 git clone https://github.com/martin-neyugn/Portfolio-Website-Martin-Nguyen.git
 Navigate to the project directory:
 bash
@@ -45,7 +45,7 @@ If you'd like to contribute to this project, feel free to fork the repository, m
 View the Live Website
 If you don’t want to clone the repository and set up the website locally, you can view the live website directly at the following link:
 
-Visit my Portfolio Website
+[Visit my Portfolio Website](https://unique-palmier-0a7e5e.netlify.app/)
 
 Feel free to explore my work and connect with me!
 
