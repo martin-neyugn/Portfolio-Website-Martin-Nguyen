@@ -26,7 +26,7 @@ To get a local copy of the project up and running on your machine, follow these 
 ### Installation
 
 1. Clone the repository:
-
+```
 bash
 git clone https://github.com/martin-neyugn/Portfolio-Website-Martin-Nguyen.git
 Navigate to the project directory:
@@ -40,7 +40,7 @@ Projects Page: Projects are displayed in a grid with hover effects that reveal a
 Contact Form: The form submits to Formspree where you can get notifications when someone contacts you through the website.
 Contributing
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
-
+```
 
 View the Live Website
 If you don’t want to clone the repository and set up the website locally, you can view the live website directly at the following link:
