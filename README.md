@@ -27,7 +27,7 @@ To get a local copy of the project up and running on your machine, follow these 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/portfolio-website.git
+git clone https://github.com/martin-neyugn/Portfolio-Website-Martin-Nguyen.git
 Navigate to the project directory:
 bash
 Copy code
