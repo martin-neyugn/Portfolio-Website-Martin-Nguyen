@@ -214,16 +214,16 @@ body, html {
 }
 
 section {
-    scroll-margin-top: 80px; /* Adjust this value to match the height of your navbar */
+    scroll-margin-top: 80px;
 }
 
 .navbar {
     position: fixed;
     top: 0;
-    width: 100%; /* Ensure the navbar spans the full width */
-    z-index: 1000; /* Keep it above other elements */
-    background-color: #343a40; /* Reapply the background color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow for better visibility */
+    width: 100%;
+    z-index: 1000;
+    background-color: #343a40;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Navigation Bar */
@@ -333,11 +333,12 @@ section {
     background-color: #888; 
 }
 
+
 #contact h3 {
-    font-size: 1.5rem; /* Adjust the font size */
-    font-weight: bold; /* Make the title bold */
-    margin-top: 30px; /* Adds space above the title */
-    color: #333; /* Optional: Set a color for the title */
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #333;
 }
 
 #contact .social-links a {
