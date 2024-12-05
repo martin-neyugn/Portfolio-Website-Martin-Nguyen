@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Nguyen - Portfolio</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        nav {
+            background-color: #343a40;
+        }
+
+        nav a {
+            color: #ff8177;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Home link with href="#" -->
+                    <li class="nav-item"><a class="nav-link" href="#" id="home-link">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1 id="hero-name">Martin Nguyen</h1>
+        <p id="hero-tagline">Web Developer | Problem Solver | Lifelong Learner</p>
+        <img src="pfp.jpg" alt="Martin Nguyen" class="profile-img">
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Martin Nguyen, a Computer Science major in my 4th year at Cal State Fullerton. I’m currently interning at the Los Angeles County Office of Education as a Staff Assistant, and I have a strong passion for web development, data analytics, and data management. I’m constantly honing my skills through personal projects and coursework, and I’m eager to apply my solid foundation in computer science to make meaningful contributions to the ever-evolving tech industry while continuing to expand my knowledge across various areas.
+
+                Outside of programming, I enjoy watching TV shows and movies. One of my biggest passions is soccer, a sport my dad first introduced to my brother and me back in 2010. I try to watch as many matches as possible, and I support Chelsea FC and Real Madrid CF, thanks to my dad. As for the sports I play, I used to play tennis in high school, and I still enjoy hitting the courts whenever I find the time. I also love playing ping pong with friends and family.
+                
+                An interesting hobby that many people don’t know about is my love for cubing. I enjoy solving the Rubik's Cube, and recently, I picked it back up after taking a break two years ago. My current average time is 10-11 seconds, with my fastest time being 6.39 seconds.
+                
+                When I’m not working on tech projects, enjoying sports or rotting at home, I love going out to eat and discovering new matcha and coffee spots. I enjoy exploring different cafes to see what the hype is about and whether or not I will be returning to that place.
+                
+                I also have a deep passion for playing the piano. Speaking of movies, La La Land holds a special place in my heart as not only is it my favorite movie ever, it reignited my passion for playing the piano again. The blend of music, romance, and artistry in that film resonates with me so much that I could talk about it for hours!
+            </p>
+            <button class="btn btn-primary" onclick="downloadResume()">Download Resume</button>
+        </div>
+        </div>
+    </section>
+
+    <script>
+        function downloadResume() {
+            const link = document.createElement('a');
+            link.href = 'Computer Science Resume.pdf';
+            link.download = 'Computer Science Resume.pdf';
+            link.target = '_blank';
+            link.click();
+        }
+    </script>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-box">
+                <div class="project-item">
+                    <h4>Weather Wizard Website App</h4>
+                    <ul>
+                        <li>Designed and launched a functional weather website, ensuring accessibility and
+                            responsiveness across devices to reach a wide user base.</li>
+                        <li>Integrated OpenWeatherMap API to retrieve real-time weather data based on user geolocation
+                            input.</li>
+                        <li>Utilized asynchronous JavaScript and the fetch API to manage API requests and data retrieval
+                            from OpenWeatherMap, enhancing performance and user experience.</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h4>Quickflash</h4>
+                    <ul>
+                        <li>Developed a dynamic and user-friendly flashcard website using PHP and MySQL, enabling users
+                            to create, store, and manage custom flashcard sets for various subjects and topics.</li>
+                        <li>Designed and implemented a robust relational database using phpMyAdmin, ensuring efficient
+                            storage, organization, and retrieval of user information, flashcards, and study progress.
+                        </li>
+                        <li>Integrated secure user authentication and authorization mechanisms to protect user data and
+                            ensure that only authorized users could access and manage their personal flashcard sets.
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h4>ReportOfContracts Blazor App</h4>
+                    <ul>
+                        <li>Developed a C# console application to automate the extraction and processing of data from
+                            multiple Excel spreadsheets, reducing manual data entry time by 50% and streamlining
+                            workflows for improved efficiency.</li>
+                        <li>Integrated the console application into a Blazor app, enhancing the user interface with
+                            dynamic features and interactivity, while ensuring accessibility for a wide range of users
+                            and clients across different devices and platforms.</li>
+                        <li>Improved data accuracy and consistency by eliminating manual input errors through
+                            automation, enabling seamless data transfer from Excel to SQL databases, and ensuring
+                            high-quality data storage and retrieval for business operations.</li>
+                    </ul>
+                </div>
+                <div class="project-item">
+                    <h4>Movie Wizard Website App</h4>
+                    <ul>
+                        <li>Developed "Movie Wizard," an interactive application that allows users to search for movies
+                            and view detailed information such as cast, plot, release year, and ratings.</li>
+                        <li>Integrated IMDb API to retrieve comprehensive and real-time movie data, ensuring that the
+                            application provides accurate, up-to-date information on a wide range of films.</li>
+                        <li>Implemented an intuitive and user-friendly search functionality, allowing for efficient and
+                            fast data retrieval, optimizing user experience across multiple devices.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="projects-box">
+            <div class="project-item">
+                <h4>Programming Languages</h4>
+                <ul>
+                    <li>Javascript</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h4>Frameworks/Tools/Libraries</h4>
+                <ul>
+                    <li>React</li>
+                    <li>Blazor</li>
+                    <li>.NET</li>
+                    <li>Power BI</li>
+                    <li>Power Apps</li>
+                    <li>phpMyAdmin</li>
+                    <li>Next.js</li>
+                    <li>SSIS</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h4>Databases</h4>
+                <ul>
+                    <li>MySQL</li>
+                    <li>SQL Server 2022</li>
+                    <li>SQL Server Management Studio</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <h4>Integrated Development Environments</h4>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Visual Studio 2022</li>
+                    <li>PyCharm</li>
+                    <li>Xcode</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container text-center">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mgveqwrl" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="_replyto" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+
+        <h3 class="mt-4">Connect with me here!</h3>
+
+        <!-- Social Media Links -->
+        <div class="social-links mt-4">
+            <a href="https://www.linkedin.com/in/martin-nguyen-26b07b234/" class="btn btn-secondary" target="_blank">LinkedIn Profile</a>
+            <a href="https://github.com/martin-neyugn" class="btn btn-black" target="_blank">GitHub Profile</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Martin Nguyen | All Rights Reserved</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
