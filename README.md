@@ -47,20 +47,4 @@ If you don’t want to clone the repository and set up the website locally, you 
 
 [Visit my Portfolio Website](https://unique-palmier-0a7e5e.netlify.app/)
 
-Feel free to explore my work and connect with me!
-
-vbnet
-Copy code
-
-### Explanation of Updates:
-1. **Added "View the Live Website" Section**:
-   - This section includes the **link** to your deployed website on **Netlify**.
-   - It explains that users can directly visit the live website without needing to clone or set up the repository.
-   
-2. **Updated Link**: The link to your deployed website is provided as a call-to-action, making it clear for users to view the live version.
-
-### Final Notes:
-- This version of the `README.md` ensures that users who don't want to clone the repository can still easily visit your website using the provided Netlify URL.
-- It still retains all the original information about your project, technology stack, and setup instructions for those who want to work locally.
-
-Let me know if you need any other adjustments!
+Feel free to explore my work and connect with me! Thank you so much!
