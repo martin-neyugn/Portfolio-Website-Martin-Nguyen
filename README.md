@@ -19,6 +19,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 To get a local copy of the project up and running on your machine, follow these steps:
 
 ### Prerequisites
+- Internet Connection (if using Netlifly link)
 - A web browser to view the website.
 - No specific setup required since it’s a static website.
 
@@ -39,3 +40,27 @@ Projects Page: Projects are displayed in a grid with hover effects that reveal a
 Contact Form: The form submits to Formspree where you can get notifications when someone contacts you through the website.
 Contributing
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
+
+
+View the Live Website
+If you don’t want to clone the repository and set up the website locally, you can view the live website directly at the following link:
+
+Visit my Portfolio Website
+
+Feel free to explore my work and connect with me!
+
+vbnet
+Copy code
+
+### Explanation of Updates:
+1. **Added "View the Live Website" Section**:
+   - This section includes the **link** to your deployed website on **Netlify**.
+   - It explains that users can directly visit the live website without needing to clone or set up the repository.
+   
+2. **Updated Link**: The link to your deployed website is provided as a call-to-action, making it clear for users to view the live version.
+
+### Final Notes:
+- This version of the `README.md` ensures that users who don't want to clone the repository can still easily visit your website using the provided Netlify URL.
+- It still retains all the original information about your project, technology stack, and setup instructions for those who want to work locally.
+
+Let me know if you need any other adjustments!
